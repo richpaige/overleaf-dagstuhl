@@ -1,0 +1,4 @@
+var fans = Fan.all();
+for (f in fans) {
+	("Fan: " + f.name).println();
+}
